@@ -1,0 +1,34 @@
+{
+  "extensions": [
+    {
+      "name": "php",
+      "repository": "https://github.com/pencode-labs/php",
+      "description": "PHP and Blade language support and Xdebug integration for Pencode"
+    },
+    {
+      "name": "codex",
+      "repository": "https://github.com/pencode-labs/codex",
+      "description": "Codex Agent extension for Pencode"
+    },
+    {
+      "name": "go",
+      "repository": "https://github.com/pencode-labs/go",
+      "description": "Go language server extension for Pencode, powered by gopls"
+    },
+    {
+      "name": "ui-demo",
+      "repository": "https://github.com/pencode-labs/ui-demo",
+      "description": "Pencode extension examples for actions, dialogs, menus, popups, and panels"
+    },
+    {
+      "name": "material-icons",
+      "repository": "https://github.com/pencode-labs/material-icons",
+      "description": "Material Design file icon theme extension for Pencode"
+    },
+    {
+      "name": "markdown-preview",
+      "repository": "https://github.com/pencode-labs/markdown-preview",
+      "description": "Read-only Markdown preview extension for Pencode with native source editing and split layout"
+    }
+  ]
+}
