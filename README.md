@@ -4,6 +4,29 @@ The official extension registry for [pencode](https://github.com/pencode-labs/pe
 
 This repository maintains the list of available pencode extensions in [`extensions.json`](./extensions.json).
 
+## JSON API
+
+The registry is published automatically from `main` to GitHub Pages:
+
+- Homepage: https://pencode-labs.github.io/extensions/
+- Extension list: https://pencode-labs.github.io/extensions/extensions.json
+
+Fetch the list with a public, unauthenticated HTTP GET request:
+
+```sh
+curl --fail https://pencode-labs.github.io/extensions/extensions.json
+```
+
+```js
+const response = await fetch("https://pencode-labs.github.io/extensions/extensions.json");
+if (!response.ok) throw new Error(`Registry request failed: ${response.status}`);
+const { extensions } = await response.json();
+```
+
+The response contains an `extensions` array. Each entry has `name`, `repository`,
+and `description` fields. The endpoint serves the same `extensions.json` maintained
+in this repository.
+
 ## Available extensions
 
 | Extension | Description |
