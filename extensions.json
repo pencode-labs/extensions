@@ -3,32 +3,42 @@
     {
       "name": "php",
       "repository": "https://github.com/pencode-labs/php",
-      "description": "PHP and Blade language support and Xdebug integration for Pencode"
+      "description": "为 PHP 和 Blade 模板提供代码补全、错误诊断、定义跳转、引用查找、重命名与格式化。集成 Xdebug 调试，支持运行当前 PHP 文件或监听外部请求，查看断点、调用栈和变量。"
     },
     {
       "name": "codex",
       "repository": "https://github.com/pencode-labs/codex",
-      "description": "Codex Agent extension for Pencode"
+      "description": "在编辑器中与 Codex 对话，阅读代码、修改文件并执行命令。支持流式回复、文件变更对比、历史会话恢复，以及模型、推理强度和操作权限设置。"
     },
     {
       "name": "go",
       "repository": "https://github.com/pencode-labs/go",
-      "description": "Go language server extension for Pencode, powered by gopls"
+      "description": "通过 gopls 提供 Go 代码补全、错误诊断、定义跳转、引用查找、重命名与格式化。集成 Delve 调试，支持断点、单步执行、调用栈和变量查看，并自动安装缺失工具。"
     },
     {
       "name": "ui-demo",
       "repository": "https://github.com/pencode-labs/ui-demo",
-      "description": "Pencode extension examples for actions, dialogs, menus, popups, and panels"
+      "description": "面向扩展开发者的交互示例，演示菜单、对话框、浮窗、面板与通知的使用。包含表单输入、扩展设置和界面生命周期事件，便于了解和验证 Pencode 扩展 UI 能力。"
     },
     {
       "name": "material-icons",
       "repository": "https://github.com/pencode-labs/material-icons",
-      "description": "Material Design file icon theme extension for Pencode"
+      "description": "为文件和文件夹提供 Material Design 风格图标，根据文件名、扩展名和目录名匹配语言、工具及项目图标，让项目结构更直观、常用文件更易辨认。"
     },
     {
       "name": "markdown-preview",
       "repository": "https://github.com/pencode-labs/markdown-preview",
-      "description": "Read-only Markdown preview extension for Pencode with native source editing and split layout"
+      "description": "实时预览 Markdown 文档，可独立打开或与源码分栏显示，编辑后自动更新。支持表格、代码块、图片与链接，方便编写和检查项目文档。"
+    },
+    {
+      "name": "docker",
+      "repository": "https://github.com/pencode-labs/docker",
+      "description": "从标题栏管理 Docker 容器，启动、停止、重启容器并查看自动刷新的日志。"
+    },
+    {
+      "name": "office-viewer",
+      "repository": "https://github.com/pencode-labs/office-viewer",
+      "description": "本地只读预览 Word、Excel 和 PowerPoint 文件，支持工作表切换、连续滚动、文本选择复制、搜索与幻灯片浏览。"
     }
   ]
 }
